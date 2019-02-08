@@ -1,10 +1,10 @@
-# Simple Form Builder JS library
+# Simple Form Builder JS library (Connect with Google Sheet)
 
-Hi friends, You can add any forms(login,registration,contact us) to your website using this library in few simple steps.
+Hi friends, You can add any forms(login,registration,contact us) to your website using the js library in few simple steps. Also you can connect your forms with server using the XMLHttpRequest. Also i'll guide you to connect your form with google excel sheet to store your form data.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will help you to use the library in your 'Web Projects'. Also help you to connect your forms with backed or googel sheet.
 
 ### Prerequisites
 
