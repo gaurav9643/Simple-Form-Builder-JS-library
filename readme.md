@@ -32,7 +32,6 @@ These instructions will help you to use the library in your 'Web Projects'. Also
     <title>Title</title>
 </head>
 <body>
-    
     <div id="formBuilder"></div>
     <script>
       new FormBuilder({
@@ -43,11 +42,24 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 </html>
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+### Options
 
-Explain how to run the automated tests for this system
+| Name  | Type | Default | Description |
+| ------------- | ------------- | ------------- |------------- |
+| selector | String  | -   | Content Cell  |
+| formClass | String  | form-builder  | Content Cell  |
+| wrapperClass | String  | wrapper-form-builder  | Content Cell  |
+| apiUrl | String  | http://dummy.restapiexample.com/api/v1/create  | Content Cell  |
+| customFields | Boolean  | true  | Content Cell  |
+| btnText | String  | Save  | Content Cell  |
+| fields | Content Cell  | First Name, Last Name, Email  | Content Cell  |
+| method | String  | GET  | Content Cell  |
+| customCSS | Boolean  | true  | Content Cell  |
+| success | Function  | -  | Content Cell  |
+| error | Function  | -  | Content Cell  |
+| notification | Boolean  | true  | Content Cell  |
+| preloader | Boolean  | true  | Content Cell  |
 
 ### Break down into end to end tests
 
