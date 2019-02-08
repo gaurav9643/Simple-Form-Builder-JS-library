@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="css/mystyle.css"> -->
+    <script src="js/lib.js"></script>
+    <!-- <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/serializeObject.js"></script> -->
+    <title>Document</title>
+    <style>
+      #formBuilder{
+        width: 50%;
+        margin: 0 auto;
+      }
+    </style>
+</head>
+<body>
+    
+    <div id="formBuilder">
+        <h2>Registration Form</h2>
+    </div>
+    <script>
+      var form = new FormBuilder({
+          selector:'formBuilder',
+          customFields:true,
+          method:'POST',
+          fields: [
+          {type:'text',placeholder:'Name',required:true,fieldName:'name',label:'Name'},
+          {type:'text',placeholder:'Salary',required:true,fieldName:'salary',label:'Salary'},
+          {type:'text',placeholder:'age',required:true,fieldName:'age',label:'Age'}
+          ],
+          btnText:'Submit',
+          customCSS:false,
+          success:function(response,ele){
+            console.log('Success Callback:',response);
+          },
+          error:function(error,ele){
+            console.log('Error Callback:',error);
+          },
+          //apiUrl:'http://dummy.restapiexample.com/api/v1/employees'
+          apiUrl: 'http://dummy.restapiexample.com/api/v1/create',
+          //requestMethod:'POST'
+      });
+    </script>
+</body>
+</html>
