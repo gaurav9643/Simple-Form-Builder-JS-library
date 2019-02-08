@@ -12,13 +12,14 @@ Hi friends, You can add any forms(login,registration,contact us) to your website
 
 These instructions will help you to use the library in your 'Web Projects'. Also help you to connect your forms with backed or googel sheet.
 
-### How to use
+## How to use
 
+### Add Library
 ```
 <script src="lib.js"></script>
 ```
 
-And repeat
+### Intialize Library
 
 ```
 until finished
