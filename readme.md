@@ -19,10 +19,16 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 <script src="lib.js"></script>
 ```
 
-### Intialize Library
+### Initialize Library
 
 ```
-until finished
+<div id="form-builder"></div>
+
+<script>
+    new FormBuilder({
+        selector: 'form-builder'
+    })
+</script>
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
