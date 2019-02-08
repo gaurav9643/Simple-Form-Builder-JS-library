@@ -10,7 +10,7 @@ Hi friends, You can add any forms(login,registration,contact us) to your website
    * [Add Library](#add-library)
    * [Initialize Library](#initailize-library)
    * [Options](#options)
-   * [Add Custom Fields](#add-custom-fields)
+   * [Add Custom Form Fields](#add-custom-form-fields)
 <!--te-->
 
 ## Features
@@ -72,7 +72,7 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 | notification | Boolean  | true  | Enable or Disable Notification(Alert)  |
 | preloader | Boolean  | true  |  Enable or Disable Preloader  |
 
-### Add Custom Fields
+### Add Custom Form Fields
 
 > For add custom fields you need to pass array object to 'fields' or set customFields to false for example:-
 
@@ -88,7 +88,14 @@ These instructions will help you to use the library in your 'Web Projects'. Also
     });
 ```
 
-### And coding style tests
+## Fields:Array[Object] Properties or Value
+| Propertie  | Type | Description | 
+| ----  | ---  | ---  |  
+| type | String  | Input type attribute(text,email,radio,checkbox)  | 
+| placeholder | String  | Placeholder for input  | 
+| required | boolean  | Make field mandatory |
+| fieldName | String  | add name attribute  |
+| label | String  | Label for form fields  | 
 
 Explain what these tests test and why
 
