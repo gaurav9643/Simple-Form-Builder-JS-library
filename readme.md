@@ -1,1 +1,1 @@
-# Simple-Form-Builder-JS-library
+# Simple Form Builder JS library
