@@ -46,7 +46,7 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 ### Options
 
 | Name  | Type | Default | Description |
-| ----  | :---:  | :---:  |  :---:  |
+| ----  | :---:  | :---:  |  ---  |
 | selector | String  | -   | Pass id of your div element  |
 | formClass | String  | form-builder  | You can add custom class in form tag  |
 | wrapperClass | String  | wrapper-form-builder  | You can add custom class in wrapper of form |
