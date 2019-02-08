@@ -47,11 +47,11 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 
 | Name  | Type | Default | Description |
 | ----  | :---:  | :---:  |  ---  |
-| selector | String  | -   | Pass id of your div element  |
+| selector | String  | -   | Set id of your div element  |
 | formClass | String  | form-builder  | You can add custom class in form tag  |
 | wrapperClass | String  | wrapper-form-builder  | You can add custom class in wrapper of form |
-| apiUrl | String  | http://dummy.restapiexample.com/api/v1/create  | Pass your api url for make xmlhttprequest  |
-| customFields | Boolean  | fasle  | Enable or Disable Custom Fields "Set true to use custom form fields in your form otherwise form will generate default form fields" |
+| apiUrl | String  | http://dummy.restapiexample.com/api/v1/create  | Set your api url for make xmlhttprequest  |
+| customFields | Boolean  | false  | Enable or Disable Custom Fields "Set true to use custom form fields in your form otherwise form will generate default form fields" |
 | btnText | String  | Save  | Change submit button text  |
 | fields | Array(Object)  | First Name, Last Name, Email  | Here you can pass your array object to make your custom fields |
 | method | String  | GET  | Method should be GET or POST  |
@@ -61,12 +61,20 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 | notification | Boolean  | true  | Enable or Disable Notification(Alert)  |
 | preloader | Boolean  | true  |  Enable or Disable Preloader  |
 
-### Break down into end to end tests
+### Add Custom Fields
 
-Explain what these tests test and why
+For add custom fields you need to pass array object to 'fields' or set customFields to false for example:-
 
 ```
-Give an example
+    new FormBuilder({
+        selector:'formBuilder',
+        customFields:true,
+        fields: [
+          {type:'text',placeholder:'Name',required:true,fieldName:'name',label:'Name'},
+          {type:'text',placeholder:'Salary',required:true,fieldName:'salary',label:'Salary'},
+          {type:'text',placeholder:'age',required:true,fieldName:'age',label:'Age'}
+          ],
+    });
 ```
 
 ### And coding style tests
