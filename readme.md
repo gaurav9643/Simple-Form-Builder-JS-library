@@ -46,12 +46,12 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 ### Options
 
 | Name  | Type | Default | Description |
-| :---:  | :---:  | :---:  |  :---:  |
+| ----  | :---:  | :---:  |  :---:  |
 | selector | String  | -   | Content Cell  |
 | formClass | String  | form-builder  | Content Cell  |
 | wrapperClass | String  | wrapper-form-builder  | Content Cell  |
 | apiUrl | String  | http://dummy.restapiexample.com/api/v1/create  | Content Cell  |
-| customFields | Boolean  | true  | Content Cell  |
+| customFields | Boolean  | fasle  | Content Cell  |
 | btnText | String  | Save  | Content Cell  |
 | fields | Content Cell  | First Name, Last Name, Email  | Content Cell  |
 | method | String  | GET  | Content Cell  |
