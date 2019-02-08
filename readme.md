@@ -8,9 +8,9 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 
 ## Features
 
-- You can add form like:- Registration, Login, Contact Us etc.
+- You can add forms like:- Registration, Login, Contact Us etc.
 - Connect your form with Rest Api using XMLHttpRequest.
-- Also you can connect your form with #####Google Shweet
+- Also you can connect your form with @Google Sheet
 
 
 ### How to use
