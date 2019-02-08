@@ -11,6 +11,7 @@ Hi friends, You can add any forms(login,registration,contact us) to your website
    * [Initialize Library](#initailize-library)
    * [Options](#options)
    * [Add Custom Form Fields](#add-custom-form-fields)
+   * [Fields:Array[Object] Properties or Value](#fieldsarrayobject-properties-or-value)
 <!--te-->
 
 ## Features
@@ -97,6 +98,13 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 | fieldName | String  | add name attribute  |
 | label | String  | Label for form fields  | 
 
+
+## Integrate with Google Sheet
+### For integrate your form with google sheet follow below steps:-
+<!--ts-->
+    * [Go to google sheet login page](https://docs.google.com/spreadsheets/u/0/)
+    *
+<!--te-->
 
 
 ## Authors
