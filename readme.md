@@ -8,6 +8,25 @@ Hi friends, You can add any forms(login,registration,contact us) to your website
 - Connect your form with Rest Api using XMLHttpRequest.
 - Also you can connect your form with @Google Sheet
 
+## Table of contents
+=================
+
+<!--ts-->
+   * [gh-md-toc](#gh-md-toc)
+   * [Table of contents](#table-of-contents)
+   * [Installation](#installation)
+   * [Usage](#usage)
+      * [STDIN](#stdin)
+      * [Local files](#local-files)
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+      * [Auto insert and update TOC](#auto-insert-and-update-toc)
+      * [Github token](#github-token)
+   * [Tests](#tests)
+   * [Dependency](#dependency)
+<!--te-->
+
 ## Getting Started
 
 These instructions will help you to use the library in your 'Web Projects'. Also help you to connect your forms with backed or googel sheet.
