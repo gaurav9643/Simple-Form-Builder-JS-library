@@ -47,19 +47,19 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 
 | Name  | Type | Default | Description |
 | ----  | :---:  | :---:  |  :---:  |
-| selector | String  | -   | Content Cell  |
-| formClass | String  | form-builder  | Content Cell  |
-| wrapperClass | String  | wrapper-form-builder  | Content Cell  |
-| apiUrl | String  | http://dummy.restapiexample.com/api/v1/create  | Content Cell  |
-| customFields | Boolean  | fasle  | Content Cell  |
-| btnText | String  | Save  | Content Cell  |
-| fields | Content Cell  | First Name, Last Name, Email  | Content Cell  |
-| method | String  | GET  | Content Cell  |
-| customCSS | Boolean  | true  | Content Cell  |
-| success | Function  | -  | Content Cell  |
-| error | Function  | -  | Content Cell  |
-| notification | Boolean  | true  | Content Cell  |
-| preloader | Boolean  | true  | Content Cell  |
+| selector | String  | -   | Pass id of your div element  |
+| formClass | String  | form-builder  | You can add custom class in form tag  |
+| wrapperClass | String  | wrapper-form-builder  | You can add custom class in wrapper of form |
+| apiUrl | String  | http://dummy.restapiexample.com/api/v1/create  | Pass your api url for make xmlhttprequest  |
+| customFields | Boolean  | fasle  | Enable or Disable Custom Fields "Set true to use custom form fields in your form otherwise form will generate default form fields" |
+| btnText | String  | Save  | Change submit button text  |
+| fields | Array(Object)  | First Name, Last Name, Email  | Here you can pass your array object to make your custom fields |
+| method | String  | GET  | Method should be GET or POST  |
+| customCSS | Boolean  | true  | Enable or Disable Custom CSS   |
+| success | Function  | -  | This is success callback with response data  |
+| error | Function  | -  | This is error callback with error StatusText  |
+| notification | Boolean  | true  | Enable or Disable Notification(Alert)  |
+| preloader | Boolean  | true  |  Enable or Disable Preloader  |
 
 ### Break down into end to end tests
 
