@@ -6,15 +6,14 @@ Hi friends, You can add any forms(login,registration,contact us) to your website
 
 These instructions will help you to use the library in your 'Web Projects'. Also help you to connect your forms with backed or googel sheet.
 
-### Prerequisites
+## Features
 
-What things you need to install the software and how to install them
+- You can add form like:- Registration, Login, Contact Us etc.
+- Connect your form with Rest Api using XMLHttpRequest.
+- Also you can connect your form with #####Google Shweet
 
-```
-Give examples
-```
 
-### Installing
+### How to use
 
 A step by step series of examples that tell you how to get a development env running
 
