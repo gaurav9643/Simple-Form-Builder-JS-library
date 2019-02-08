@@ -22,13 +22,25 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 ### Initialize Library
 
 ```
-<div id="form-builder"></div>
-
-<script>
-    new FormBuilder({
-        selector: 'form-builder'
-    })
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/lib.js"></script>
+    <title>Title</title>
+</head>
+<body>
+    
+    <div id="formBuilder"></div>
+    <script>
+      new FormBuilder({
+          selector:'formBuilder'
+      });
+    </script>
+</body>
+</html>
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
