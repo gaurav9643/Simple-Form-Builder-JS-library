@@ -101,7 +101,7 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 
 ## Authors
 
-* **Gaurav Rathore** - *Initial work* - [PurpleBooth](https://github.com/gaurav9643/)
+* **Gaurav Rathore** - *Initial work* - [Gaurav Rathore](https://github.com/gaurav9643/)
 
 
 
