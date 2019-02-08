@@ -100,10 +100,10 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 
 
 ## Integrate with Google Sheet
-### For integrate your form with google sheet follow below steps:-
+#### For integrate your form with google sheet follow below steps:-
 <!--ts-->
-    * [Go to google sheet login page](https://docs.google.com/spreadsheets/u/0/)
-    *
+    - [Go to google sheet login page](https://docs.google.com/spreadsheets/u/0/)
+    -
 <!--te-->
 
 
