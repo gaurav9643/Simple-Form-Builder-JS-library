@@ -2,16 +2,15 @@
 
 Hi friends, You can add any forms(login,registration,contact us) to your website using the js library in few simple steps. Also you can connect your forms with server using the XMLHttpRequest. Also i'll guide you to connect your form with google excel sheet to store your form data.
 
-## Getting Started
-
-These instructions will help you to use the library in your 'Web Projects'. Also help you to connect your forms with backed or googel sheet.
-
 ## Features
 
 - You can add forms like:- Registration, Login, Contact Us etc.
 - Connect your form with Rest Api using XMLHttpRequest.
 - Also you can connect your form with @Google Sheet
 
+## Getting Started
+
+These instructions will help you to use the library in your 'Web Projects'. Also help you to connect your forms with backed or googel sheet.
 
 ### How to use
 
