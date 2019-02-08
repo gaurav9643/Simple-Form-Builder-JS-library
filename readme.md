@@ -63,7 +63,7 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 
 ### Add Custom Fields
 
-For add custom fields you need to pass array object to 'fields' or set customFields to false for example:-
+> For add custom fields you need to pass array object to 'fields' or set customFields to false for example:-
 
 ```
     new FormBuilder({
