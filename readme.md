@@ -46,7 +46,7 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 ### Options
 
 | Name  | Type | Default | Description |
-| ------------- | ------------- | ------------- |------------- |
+| :---:  | :---:  | :---:  |  :---:  |
 | selector | String  | -   | Content Cell  |
 | formClass | String  | form-builder  | Content Cell  |
 | wrapperClass | String  | wrapper-form-builder  | Content Cell  |
