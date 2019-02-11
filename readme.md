@@ -110,7 +110,7 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 4. Update sheet name or add fields name which you want to add in your form.
     -![Add fields or update sheet name](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp3.PNG)
 5. Now go to Tool->Script editor
-     -![go to script editor](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp4.PNG)
+     -![go to script editor](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp4.png)
 6.  Remove all code from Code.gs and paste below code in code.gs
     ```
         // original from: http://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
