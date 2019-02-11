@@ -103,14 +103,14 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 > For integrate your form with google sheet follow below steps:-
 
 1. [Go google sheet](https://docs.google.com/spreadsheets/u/0/)
-    -![go to google sheet](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp1.PNG)
+    -![go to google sheet](http://mydevspace.ga/FormBuilderLibrary/Steps/1.PNG)
 2. Sign-in with your google account. 
 3. Blank - Start a new spreadsheet
-    -![Add blank sheet](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp2.PNG)
+    -![Add blank sheet](http://mydevspace.ga/FormBuilderLibrary/Steps/2.PNG)
 4. Update sheet name or add fields name which you want to add in your form.
-    -![Add fields or update sheet name](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp3.PNG)
+    -![Add fields or update sheet name](http://mydevspace.ga/FormBuilderLibrary/Steps/3.PNG)
 5. Now go to Tool->Script editor and update project name in left top corner.
-     -![go to script editor](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp4.png)
+     -![go to script editor](http://mydevspace.ga/FormBuilderLibrary/Steps/4.png)
 6.  Remove all code from Code.gs and paste below code in code.gs
     ```
         // original from: http://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
@@ -172,11 +172,11 @@ These instructions will help you to use the library in your 'Web Projects'. Also
             SCRIPT_PROP.setProperty("key", doc.getId());
         }
     ```
-    -![Paste code in code.gs](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp5.png)
+    -![Paste code in code.gs](http://mydevspace.ga/FormBuilderLibrary/Steps/5.png)
 6.  Now publish your code using Publish tab go :- Publish->Deploy as web app or click on deploy with mendetory details.
-    -![Paste code in code.gs](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp6.PNG)
-
-
+    -![Deploy app](http://mydevspace.ga/FormBuilderLibrary/Steps/6.PNG)
+6.  After successfully deploy you get a api url like this:--
+     -![Get URL](http://mydevspace.ga/FormBuilderLibrary/Steps/7.PNG)
 ## Authors
 
 * **Gaurav Rathore** - *Initial work* - [Gaurav Rathore](https://github.com/gaurav9643/)
