@@ -109,7 +109,7 @@ These instructions will help you to use the library in your 'Web Projects'. Also
     -![Add blank sheet](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp2.PNG)
 4. Update sheet name or add fields name which you want to add in your form.
     -![Add fields or update sheet name](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp3.PNG)
-5. Now go to Tool->Script editor
+5. Now go to Tool->Script editor and update project name in left top corner.
      -![go to script editor](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp4.png)
 6.  Remove all code from Code.gs and paste below code in code.gs
     ```
@@ -173,6 +173,9 @@ These instructions will help you to use the library in your 'Web Projects'. Also
         }
     ```
     -![Paste code in code.gs](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp5.png)
+6.  Now publish your code using Publish tab go :- Publish->Deploy as web app or click on deploy with mendetory details.
+    -![Paste code in code.gs](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp6.PNG)
+
 
 ## Authors
 
