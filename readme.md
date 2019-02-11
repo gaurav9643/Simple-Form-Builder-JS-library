@@ -102,11 +102,13 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 ## Integrate with Google Sheet
 > For integrate your form with google sheet follow below steps:-
 
-1. [Go google sheet](https://docs.google.com/spreadsheets/u/0/ {:target="_blank"})
+1. [Go google sheet](https://docs.google.com/spreadsheets/u/0/)
     -![go to google sheet](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp1.PNG)
 2. Sign-in with your google account. 
 3. Blank - Start a new spreadsheet
-4.
+    -![Add blank sheet](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp2.PNG)
+4. Update update sheet name or add fields name which you want to add in your form.
+    -![Add fields or update sheet name](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp3.PNG)
 
 
 
