@@ -172,7 +172,7 @@ These instructions will help you to use the library in your 'Web Projects'. Also
             SCRIPT_PROP.setProperty("key", doc.getId());
         }
     ```
-
+    -![Paste code in code.gs](http://mydevspace.ga/FormBuilderLibrary/Steps/Setp5.png)
 
 ## Authors
 
