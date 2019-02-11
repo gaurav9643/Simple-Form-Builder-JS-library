@@ -102,7 +102,7 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 ## Integrate with Google Sheet
 > For integrate your form with google sheet follow below steps:-
 
-1. One
+1. [GitHub Pages](https://pages.github.com/)
 2. Two
 3. Three
 
