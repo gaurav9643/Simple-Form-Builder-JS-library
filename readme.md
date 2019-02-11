@@ -12,6 +12,8 @@ Hi friends, You can add any forms(login,registration,contact us) to your website
    * [Options](#options)
    * [Add Custom Form Fields](#add-custom-form-fields)
    * [Fields:Array[Object] Properties or Value](#fieldsarrayobject-properties-or-value)
+   * [Integrate with Google Sheet](#integrate-with-google-sheet)
+   * [Demo](http://mydevspace.ga/FormBuilderLibrary/Example/)
 <!--te-->
 
 ## Features
@@ -178,7 +180,7 @@ These instructions will help you to use the library in your 'Web Projects'. Also
 8.  After successfully deploy you will get api url like this:--
      -![Get URL](http://mydevspace.ga/FormBuilderLibrary/Steps/7.PNG)
 9.
-> Now you need to just implement js library and pass your google sheet api url in apiurl property.
+> Now you need to just implement js library and pass your google sheet api url in 'apiUrl' property.
 ```
     new FormBuilder({
         selector:'formBuilder',
