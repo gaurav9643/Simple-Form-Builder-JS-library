@@ -24,12 +24,13 @@
     <script>
       new FormBuilder({
           selector:'formBuilder',
-          customFields:true,
-          method:'POST',
+          customFields:false,
+          method:'GET',
           fields: [
           {type:'text',placeholder:'Name',required:true,fieldName:'name',label:'Name'},
           {type:'text',placeholder:'Salary',required:true,fieldName:'salary',label:'Salary'},
-          {type:'text',placeholder:'age',required:true,fieldName:'age',label:'Age'}
+          {type:'text',placeholder:'age',required:true,fieldName:'age',label:'Age'},
+          {type:'text',placeholder:'phone',required:true,fieldName:'phone',label:'Phone'}
           ],
           btnText:'Submit',
           customCSS:false,
@@ -40,7 +41,7 @@
             console.log('Error Callback:',error);
           },
           //apiUrl:'http://dummy.restapiexample.com/api/v1/employees'
-          apiUrl: 'http://dummy.restapiexample.com/api/v1/create',
+          //apiUrl: 'http://dummy.restapiexample.com/api/v1/create',
           //requestMethod:'POST'
       });
     </script>
