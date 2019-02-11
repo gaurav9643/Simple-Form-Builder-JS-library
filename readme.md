@@ -173,13 +173,38 @@ These instructions will help you to use the library in your 'Web Projects'. Also
         }
     ```
     -![Paste code in code.gs](http://mydevspace.ga/FormBuilderLibrary/Steps/5.png)
-6.  Now publish your code using Publish tab go :- Publish->Deploy as web app or click on deploy with mendetory details.
+7.  Now publish your code using Publish tab go :- Publish->Deploy as web app or click on deploy with mendetory details.
     -![Deploy app](http://mydevspace.ga/FormBuilderLibrary/Steps/6.PNG)
-6.  After successfully deploy you get a api url like this:--
+8.  After successfully deploy you will get api url like this:--
      -![Get URL](http://mydevspace.ga/FormBuilderLibrary/Steps/7.PNG)
+9.
+> Now you need to just implement js library and pass your google sheet api url in apiurl property.
+```
+    new FormBuilder({
+        selector:'formBuilder',
+        customFields:false,
+        method:'GET',
+        fields: [
+        {type:'text',placeholder:'Name',required:true,fieldName:'Name',label:'Name'},
+        {type:'text',placeholder:'Email',required:true,fieldName:'Email',label:'Email'},
+        {type:'text',placeholder:'Phone',required:true,fieldName:'Phone',label:'Phone'}
+        ],
+        btnText:'Save Form',
+        customCSS:false,
+        apiUrl:'https://script.google.com/macros/s/AKfycbz2Mw1I6YpTNKy1j8V8wvcxh0b7KuSPsd6ynbwXTCHxRIq5CDmDM/exec',
+        success:function(response,ele){
+            console.log('Success Callback:',response);
+        },
+        error:function(error,ele){
+            console.log('Error Callback:',error);
+        },
+    });
+```
+
+
 ## Authors
 
-* **Gaurav Rathore** - *Initial work* - [Gaurav Rathore](https://github.com/gaurav9643/)
+* **Gaurav Rathore**  - [Gaurav Rathore](https://github.com/gaurav9643/)
 
 
 
